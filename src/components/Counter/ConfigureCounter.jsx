@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export default function ConfigureCounter({ onSet }) {
   const [enteredNumber, setEnteredNumber] = useState(0);
   function handleChange(event) {
